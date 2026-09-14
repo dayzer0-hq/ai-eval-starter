@@ -1,0 +1,11 @@
+{"id": "q1", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q2", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q3", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q4", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q5", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q6", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q7", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q8", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q1", "kind": "low_confidence", "verdict": {"pass": true, "confidence": 0.2}, "note": "too unsure to count as a pass"}
+{"id": "q2", "kind": "self_inconsistent", "verdict": [{"pass": true}, {"pass": false}], "note": "judge contradicts itself"}
+{"id": "q3", "kind": "malformed_json", "raw": "{\"pass\": ", "note": "judge output not parseable"}
