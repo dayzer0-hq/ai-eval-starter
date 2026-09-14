@@ -1,0 +1,43 @@
+{"id": "q1", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q2", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q3", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q4", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q5", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q6", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q7", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q8", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q9", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q10", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q11", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q12", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q13", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q14", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q15", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q16", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q17", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q18", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q19", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q20", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q21", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q22", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q23", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q24", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q25", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q26", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q27", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q28", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q29", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q30", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q31", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q32", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q33", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q34", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q35", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q36", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q37", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q38", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q39", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q40", "kind": "well_formed", "verdict": {"pass": true, "confidence": 0.9}}
+{"id": "q1", "kind": "low_confidence", "verdict": {"pass": true, "confidence": 0.2}, "note": "too unsure to count"}
+{"id": "q2", "kind": "self_inconsistent", "verdict": [{"pass": true}, {"pass": false}], "note": "judge contradicts itself"}
+{"id": "q3", "kind": "malformed_json", "raw": "{\"pass\": ", "note": "unparseable verdict"}

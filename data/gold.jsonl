@@ -1,8 +1,0 @@
-{"id": "q1", "question": "how long do refunds take", "reference": "5-7 business days", "rubric": "answer must match the reference intent", "slice": "refunds"}
-{"id": "q2", "question": "what is the express delivery time", "reference": "next day in metro cities", "rubric": "answer must match the reference intent", "slice": "delivery"}
-{"id": "q3", "question": "can I change my address after ordering", "reference": "yes, before it ships", "rubric": "answer must match the reference intent", "slice": "orders"}
-{"id": "q4", "question": "is cash on delivery available", "reference": "yes, on most items", "rubric": "answer must match the reference intent", "slice": "payments"}
-{"id": "q5", "question": "how do I cancel", "reference": "from the orders page before dispatch", "rubric": "answer must match the reference intent", "slice": "orders"}
-{"id": "q6", "question": "refund to which method", "reference": "the original payment method", "rubric": "answer must match the reference intent", "slice": "refunds"}
-{"id": "q7", "question": "do you deliver on sundays", "reference": "yes in metro cities", "rubric": "answer must match the reference intent", "slice": "delivery"}
-{"id": "q8", "question": "how to apply a coupon", "reference": "at checkout in the offers box", "rubric": "answer must match the reference intent", "slice": "payments"}

@@ -22,3 +22,7 @@ pytest -q
 `fixture.py` only LOADS. The scorer, the slice aggregation, the ship/no-ship rule and the
 uncertainty fallback are yours — the gold set is input, not a worked evaluator. A fixture is not
 the model. Optional live judge via Ollama; never required, never graded.
+
+## Namespaced by brief (DZ-712)
+
+Each brief's files live under `data/<brief>/` (e.g. `data/meesho/`), so every brief gets its own inputs, recorded responses and labels — nothing is shared or softened. Load yours with `fixture.load("<brief>", "<file>")`. Every model_fixture carries the four broken kinds; the fixtures are **representative samples**, not production scale — a fixture is not the model.

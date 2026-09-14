@@ -1,10 +1,16 @@
-"""fixture.py — loader for the eval gold set, candidate answers and judge verdicts. Loads only:
-the scoring, the aggregation, the ship/no-ship rule and the uncertainty handling are your project."""
+"""fixture.py — loader for namespaced fixtures. Each brief's files live under data/<namespace>/.
+This LOADS; it does not validate, retrieve, score, route or dedupe — that is your project."""
 import json, os
-_H=os.path.dirname(__file__)
-def _read(name):
-    with open(os.path.join(_H,"data",name),encoding="utf-8") as f:
-        return [json.loads(l) for l in f if l.strip()]
-def gold(): return _read("gold.jsonl")
-def version(name): return _read(f"version_{name}.jsonl")   # 'a','b'
-def judge_cases(): return _read("judge_fixture.jsonl")
+_H = os.path.dirname(__file__)
+
+def namespaces():
+    d = os.path.join(_H, "data")
+    return sorted(n for n in os.listdir(d) if os.path.isdir(os.path.join(d, n)))
+
+def load(ns, filename):
+    """Load a jsonl file from your brief's namespace, e.g. load("meesho", "tickets.jsonl")."""
+    with open(os.path.join(_H, "data", ns, filename), encoding="utf-8") as fh:
+        return [json.loads(l) for l in fh if l.strip()]
+
+def kinds(ns, filename):
+    return {r.get("kind") for r in load(ns, filename) if "kind" in r}
